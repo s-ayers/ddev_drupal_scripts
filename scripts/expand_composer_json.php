@@ -109,6 +109,7 @@ function default_json(string $project_name): array {
       'drush/drush' => '^10 || ^11 || ^12',
       'php-parallel-lint/php-parallel-lint' => '^1.2',
       'drupal/admin_toolbar' => '^3.4',
+      'drupal/config_inspector' => '^2.1',
     ],
     'minimum-stability' => 'dev',
     'prefer-stable' => TRUE,
