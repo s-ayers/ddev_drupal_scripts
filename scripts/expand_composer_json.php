@@ -85,7 +85,7 @@ file_put_contents(empty(getenv('COMPOSER')) ? $path : getenv('COMPOSER'), json_e
  * Get default composer.json contents.
  */
 function default_json(string $project_name): array {
-  $drupalConstraint = getenv('_TARGET_CORE') ?: '^9';
+  $drupalConstraint = getenv('_TARGET_CORE') ?: '^10';
   $webRoot = getenv('_WEB_ROOT') ?: 'web';
   return [
     'name' => 'drupal/' . $project_name,
