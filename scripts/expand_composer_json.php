@@ -117,12 +117,14 @@ function default_json(string $project_name): array {
     'config' => [
       'process-timeout' => 36000,
       "allow-plugins" => [
-        "dealerdirect/phpcodesniffer-composer-installer" => TRUE,
         "composer/installers" => TRUE,
         "cweagans/composer-patches" => TRUE,
+        "dealerdirect/phpcodesniffer-composer-installer" => TRUE,
         "drupal/core-composer-scaffold" => TRUE,
         "drupalspoons/composer-plugin" => TRUE,
+        "php-http/discovery" => TRUE,
         "phpstan/extension-installer" => TRUE,
+        "tbachert/spi" => TRUE,
       ],
     ],
     'extra' => [
